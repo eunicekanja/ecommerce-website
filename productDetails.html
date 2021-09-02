@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products-Red Store ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6926f95f7e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="125px">
+                </div>
+                <nav>
+                    <ul id='menuItems'>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px">
+                <img src="images/menu.png" class='menu'alt="" onclick="menuToggle()">
+            </div>
+            
+        </div>
+    <!--single product details-->
+    <div class="small-container single-product">
+        <div class="row">
+            
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" id='mainImage'>
+                <div class="small-img">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class='image1'>
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="image2" onclick="image2()">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="image3">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" width="100%" class="image4">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/ T-sHIRT</p>
+                <h1>Red printed shirt by HRX </h1>
+               <h4>$50</h4>
+               <select>
+                    <option >Select size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                    <option>Extra small</option>
+                   
+                </select>
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add to cart</a>
+                <h3>Product Details <i class="fas fa-indent"></i></h3><br>
+                <p>Give your summer wardrobe a style upgrade with the HXR Men's active tshirt.
+                    Team it with a pair of shorts for your morning workout or a denim for an evening out with the guys
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--title-->
+    <div class="small-container">
+       <div class="row row2"></div> 
+
+    </div>
+    <!--featured products-->
+    <div class="small-container">
+        <div class="row row2">
+            <h2>All Products</h2>
+            <select class='select'>
+                <option >Default sorting</option>
+                <option >Sort by color</option>
+                <option >Sort by price</option>
+                <option >Sort by popularity</option>
+                <option >Sort by rating</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class='price'>$50.00</p>
+
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Black Nike Sneakers</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class='price'>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Black Adidas Trousers</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class='price'>$90.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Navy Blue Polo Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class='price'>$50.00</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Andorid and ios mobile phone</p>
+                    <div class="appLogo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                   <img src="images/logo-white.png" alt="">
+                    <p>Our purpose is to sustainably make the pleasure and benefuts of sports accessible to many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                    <li>Blog Post</li>
+                    <li>Coupons</li>
+                    <li>Return Policy</li>
+                    <li>Join affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                    </ul>
+                </div>
+            </div><hr>
+            <p class='copy'>Copyright 2020-EasyTutorials</p>
+        </div>
+    </div>
+    <!--js for menu-->
+    <script src="main.js"></script>
+</body>
+</html>
